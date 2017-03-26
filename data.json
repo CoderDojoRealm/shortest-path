@@ -1,0 +1,34 @@
+{
+    "driveTime": 0,
+    "stopLightTiming": 30,
+    "stopLightStartTime": 0,
+    "stopLightStartColour": "red",
+    "next": {
+        "n1e2": {
+            "driveTime": 100,
+            "stopLightTiming": 30,
+            "stopLightStartTime": 0,
+            "stopLightStartColour": "green",
+            "next": {
+              "n2e2": {
+                "driveTime": 250,
+                "stopLightTiming": 30,
+                "stopLightStartTime": 0,
+                "stopLightStartColour": "green"
+              },
+              "n1e3": {
+                "driveTime": 130,
+                "stopLightTiming": 30,
+                "stopLightStartTime": 0,
+                "stopLightStartColour": "red"
+              }
+            }
+        },
+        "n2e1": {
+            "driveTime": 85,
+            "stopLightTiming": 30,
+            "stopLightStartTime": 0,
+            "stopLightStartColour": "red"
+        }
+    }
+}
